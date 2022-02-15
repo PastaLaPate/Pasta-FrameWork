@@ -9,7 +9,7 @@ function main.new()
     
     self.webHooks = {}
     
-    local DiscordWebHookServiceSource = HS:GetAsync("", true)
+    local DiscordWebHookServiceSource = HS:GetAsync("https://github.com/PastaLaPate/Pasta-FrameWork/blob/main/src/Services/WebHook/Discord/main.lua", true)
     local DiscordWebHookService = require(loadstring(WebHookServiceSource))
     
     function self:AddWebHook(url)
